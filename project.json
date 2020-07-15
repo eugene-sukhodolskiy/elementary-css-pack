@@ -9,7 +9,7 @@
     ],
     "type": "web",
     "status": "open",
-    "project_color": null,
-    "git_url": null,
-    "release_url": null
+    "project_color": "#2a95bf",
+    "git_url": "https://github.com/eugene-sukhodolskiy/elementary-css-pack/tree/master",
+    "release_url": "https://eugene-sukhodolskiy.github.io/elementary-css-pack/html/"
 }
