@@ -49,6 +49,34 @@ body{
 	margin: 15px 0;
 }
 
+.block.style{
+  width: 100%;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  background-color: var(--color-default);
+}
+
+.block.style.primary{
+	background-color: var(--color-primary);
+	color: var(--color-text-inverse);
+}
+
+.block.style.success{
+	background-color: var(--color-success);
+	color: var(--color-text-inverse);
+}
+
+.block.style.warning{
+	background-color: var(--color-warning);
+	color: var(--color-text);
+}
+
+.block.style.danger{
+	background-color: var(--color-danger);
+	color: var(--color-text-inverse);
+}
+
 .block.big{
 	padding: 25px 0;
 	margin: 25px 0;
@@ -57,6 +85,16 @@ body{
 .block.small{
 	padding: 10px 0;
 	margin: 10px 0;
+}
+
+.block.big.style{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.block.small.style{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .block > .block:first-of-type{
