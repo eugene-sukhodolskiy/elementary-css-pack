@@ -150,6 +150,11 @@ strong{
 	color: inherit;
 	font-weight: 500;
 }
+.tag{
+	background-color: var(--color-default);
+	border-radius: var(--border-radius);
+	padding: 4px 6px;
+}
 /* Links */
 
 a.link, a{

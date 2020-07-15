@@ -12,6 +12,7 @@ body{
 @join:vars.css;
 @join:components/blocks.css;
 @join:components/fonts.css;
+@join:components/tags.css;
 @join:components/links.css;
 @join:components/forms.css;
 @join:components/buttons.css;
