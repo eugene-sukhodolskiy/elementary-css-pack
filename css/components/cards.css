@@ -159,9 +159,6 @@
 	box-sizing: border-box;
 	padding: 15px;
 	background-color: var(--color-card-bg);
-	border-width: 1px 1px 1px 0;
-	border-style: solid;
-	border-color: var(--color-border);
 	overflow: hidden;
 	opacity: 1;
 }
