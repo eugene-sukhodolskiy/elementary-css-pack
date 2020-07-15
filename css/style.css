@@ -116,23 +116,23 @@ strong{
 
 a.link, a{
 	color: var(--color-primary);
-	transition-duration: var(--animation-du);
 	text-decoration: none;
-	padding: 5px 0;
-	font-weight: 400;
+	padding: 3px;
+	font-weight: inherit;
+	font-size: 1em;
+	border-radius: var(--border-radius);
+	transition-duration: var(--animation-du);
+	transition-property: background-color, color;
 }
 
 a{
-	text-decoration: none;
 	color: var(--color-primary-light);
 }
 
 a.link:hover{
-	border-radius: var(--border-radius);
 	text-decoration: none;
 	color: var(--color-default);
 	background-color: var(--color-primary);
-	padding: 5px;
 }
 /* FORMS */
 
@@ -801,6 +801,8 @@ ol > li:last-of-type{
 	color: var(--color-default);
 }
 
+/* FIXES */
+
 ion-icon{
 	position: relative;
 	top: 3px;
@@ -815,3 +817,15 @@ ion-icon{
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
+
+.block > p:first-of-typ{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.block > p:last-of-type{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* END FIXES */

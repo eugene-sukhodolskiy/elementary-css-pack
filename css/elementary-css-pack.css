@@ -22,6 +22,8 @@ body{
 @join:components/notifications.css;
 @join:components/color-schema.css;
 
+/* FIXES */
+
 ion-icon{
 	position: relative;
 	top: 3px;
@@ -36,3 +38,15 @@ ion-icon{
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
+
+.block > p:first-of-typ{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.block > p:last-of-type{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* END FIXES */
