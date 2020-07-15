@@ -29,17 +29,7 @@ ion-icon{
 	top: 3px;
 }
 
-.block > .heading:first-of-type{
-	margin-top: 0;
-	padding-top: 0;
-}
-
-.block > .heading:last-of-type{
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-.block > p:first-of-typ{
+.block > p:first-of-type{
 	margin-top: 0;
 	padding-top: 0;
 }
