@@ -805,37 +805,3 @@ ion-icon{
 	position: relative;
 	top: 3px;
 }
-
-.heading.page-heading{
-	margin-bottom: 0;
-}
-
-.heading.page-heading + .block{
-	margin-top: 0;
-}
-
-.steps{
-	height: 860px;
-	margin-top: 50px;
-}
-
-.step{
-	text-align: center;
-	height: 100%;
-}
-
-.card.step .card-body{
-	margin-top: 35px;
-}
-
-.slick-slider .slick-track, .slick-slider .slick-list{
-	height: inherit;
-}
-
-a.link{
-  padding: 5px;
-}
-
-.list li{
-	color: #222 !important;
-}

@@ -21,3 +21,8 @@ body{
 @join:components/loader.css;
 @join:components/notifications.css;
 @join:components/color-schema.css;
+
+ion-icon{
+	position: relative;
+	top: 3px;
+}
